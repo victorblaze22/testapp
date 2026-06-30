@@ -1,4 +1,4 @@
-import './App.css'
+import "./App.css";
 
 function App() {
   return (
@@ -6,7 +6,7 @@ function App() {
       <nav className="navbar">
         <div className="nav-inner">
           <a href="#" className="nav-logo">
-            Launchpad
+            Launchpad v2
           </a>
           <ul className="nav-links">
             <li>
