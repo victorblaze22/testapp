@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__playwright",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173)",
+      "PowerShell(Start-Process \"http://localhost:5173\")",
+      "Bash(node -e ' *)",
+      "Bash(npx playwright@1.61.1 screenshot --browser chromium \"http://localhost:5173\" \"C:/Users/CHIBUZ~1/AppData/Local/Temp/claude/c--Users-ChibuzorUmezuruike-Documents-Victor-Anthropic-testapp/15c9da52-e627-4065-afb1-915e4094563a/scratchpad/screenshot.png\")",
+      "Bash(npx playwright *)"
+    ],
+    "deny": []
+  }
+}
